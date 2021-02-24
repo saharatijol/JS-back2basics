@@ -18,35 +18,15 @@ console.log(typeof language);
 language = 'English';
 
 // Basic operators
-let halfPop = population / 2;
-console.log(halfPop);
-halfPop++;
-console.log(halfPop > 6);
-console.log(halfPop < 33);
+const now = 2037;
+const ageSara = now - 1990;
+const ageJoe = now - 2018;
+console.log(ageSara, ageJoe);
 
-let description = country + ' is in ' + continent + ' ,and its ' + population + ' million people speak ' + language;
+console.log(ageJoe * 2, ageSara / 10, 2 ** 3);
 
-console.log(description);
-
-description = `${country} is in ${continent} ,and its ${population} million people speak ${language}`;
-console.log(description);
-
-if (population > 33) {
-  console.log(`${country}'s population is above average`);
-  } else { 
-    console.log(`${country}'s population is ${33 - population} million below average`,); 
-  }
+const firstName = 'Jack';
+const lastName = 'Bauer';
+console.log(firstName + ' ' + lastName);
 
 
-  const numNeighbours = prompt('How many neighbour countries does your country have?', );
-    
-  // LATER : This helps us prevent bugs
-    const numNeighbours = Number(prompt('How many neighbour countries does your country have?'), );
-    
-    if (numNeighbours === 1) { 
-      console.log('Only 1 border!');
-    } else if (numNeighbours > 1) { 
-      console.log('More than 1 border');
-    } else {
-      console.log('No borders');
-    }
