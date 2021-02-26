@@ -1,32 +1,19 @@
-// Assignment : Values and Variables
-const country = "USA";
-const continent = "North America";
-let population = 579;
-console.log(country);
-console.log(continent);
-console.log(population);
+// Coding Challenge #1
 
-// Data types
-let isIsland = false;
-let language;
-console.log(typeof isIsland);
-console.log(typeof population);
-console.log(typeof country);
-console.log(typeof language);
+/* 
+Mark and John are tyring to compare their BMI (Body Mass Index), which is calculated using the formula:
+BMI = mass / height ** 2 OR mass / (height * height).
+(mass in kg and height in meter).
 
-// let, const, var
-language = 'English';
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both versions)
+3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
 
-// Basic operators
-const now = 2037;
-const ageSara = now - 1990;
-const ageJoe = now - 2018;
-console.log(ageSara, ageJoe);
+TEST DATA 1: Marks weights 78kg and is 1.69m tall
+            John weighs 92kg and is 1.95m tall.
+TEST DATA 2: Mark weighs 95kg and is 1.88m tall.
+            John weighs 85kg and is 1.76m tall.
+*/
 
-console.log(ageJoe * 2, ageSara / 10, 2 ** 3);
-
-const firstName = 'Jack';
-const lastName = 'Bauer';
-console.log(firstName + ' ' + lastName);
 
 
